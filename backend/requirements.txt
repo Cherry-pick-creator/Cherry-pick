@@ -1,0 +1,28 @@
+# FastAPI
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+
+# Pydantic
+pydantic==2.10.5
+pydantic-settings==2.7.1
+
+# Celery + Redis
+celery==5.4.0
+redis==5.2.1
+
+# Supabase
+supabase==2.11.0
+
+# HTTP client
+httpx==0.28.1
+
+# Image/Video processing
+Pillow==11.1.0
+yt-dlp==2025.1.15
+
+# Monitoring
+sentry-sdk[fastapi]==2.19.2
+
+# Logging
+python-json-logger==3.2.1
