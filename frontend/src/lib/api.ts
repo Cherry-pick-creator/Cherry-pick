@@ -1,7 +1,6 @@
 import { ApiErrorBody } from "./types";
 
-const RAW_API_BASE = process.env.NEXT_PUBLIC_API_URL || "https://cherry-pick-production.up.railway.app/api/v1";
-const API_BASE = RAW_API_BASE.replace(/^http:\/\/(?!localhost)/, "https://");
+const API_BASE = "https://cherry-pick-production.up.railway.app/api/v1";
 
 export class ApiError extends Error {
   constructor(
