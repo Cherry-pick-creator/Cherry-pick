@@ -1,6 +1,6 @@
 import { ApiErrorBody } from "./types";
 
-const API_BASE = "https://cherry-pick-production.up.railway.app/api/v1";
+const API_BASE = "/api/v1";
 
 export class ApiError extends Error {
   constructor(
